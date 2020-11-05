@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+}
+
+.navbar img {
+    height: 51px;
+}
+
+.profile img {
+    width: 56px;
+    height: 56px;
+    margin-right: 30px;
+}
+
+.card {
+    width: 252px;
+    height: 270px;
+}
+.card img {
+    width: 224px;
+    margin: 10px auto;
+}
+
+.blog img {
+    width: 177px;
+}
+
+.navbar-bg {
+    background-color: #562EFF;
+}
+
+.navbar-nav li {
+    margin: 0 10px;
+}
+
+h4 {
+    color: #562EFF;
+}
+
+h5 {
+    color: #000000;
+}
+.card h5 {
+    color: #1E1E1E;
+}
+.card p {
+    color: #ED6B4F;
+    font-size: 15px;
+}
+h6 {
+    font-size: 18px;
+    color: #000000;
+}
+
+.blog p {
+    color: #9F9F9F;
+}
+span {
+    color: #562EFF;
+}
+.player {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.card-footer {
+    background: none;
+    border-top: none;
+}
+
+.card-footer img {
+    width: 15px;
+}
+
+.card-point {
+    color:  #A2A2A2;
+    font-size: 15px;
+}
+
+.time {
+    font-size: 15px;
+    font-weight: 600;
+    color: #FF4A60;
+    background: #FFE4E8;
+    padding: 0 12px;
+    border-radius: 14px;
+}
+
+@media (min-width: 576px){
+    .card-deck .card {
+        margin: 0;
+    }
+}
